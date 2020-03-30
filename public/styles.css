@@ -1,0 +1,204 @@
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+.navbar-container-bg, .navbar, .navbar-brand, .nav-link {
+  transition: 0.5s;
+}
+
+.container-fluid-color {
+  background-color: #3D5B53;
+  padding: 50px 0;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+.title-color {
+  color:#5F9484;
+}
+
+.title-color-invert {
+  color: #fff;
+}
+
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar-container-bg {
+  background-color: #5F9484;
+}
+
+.navbar {
+  padding-top: 50px;
+  height: 120px;
+}
+
+.navbar-brand, .nav-link {
+  color: #5F9484;
+}
+
+.navbar-brand{
+  font-size: 1.5rem
+}
+
+.nav-link{
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+
+.logo-img {
+  height: 50px;
+  padding-right: 10px;
+}
+
+/* Title Section */
+
+.title-mp4 {
+  background: url("images/sample.jpg");
+  width: 100%;
+  height: 100vh;
+  text-align: right;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.title-text {
+  padding: 200px 50px 0 0;
+  font-size: 8rem;
+}
+
+/* About Section */
+
+.article-col {
+  padding-left: 20px;
+}
+
+.article-img {
+  margin: auto;
+  height: 300px;
+}
+
+.article-title {
+  margin-bottom: 20px;
+}
+
+/* Portfolio Section  */
+
+.portfolio-section {
+  text-align: center;
+  margin: 50px 100px 20px;
+}
+
+.carousel-image1, .carousel-image2, .carousel-image3  {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.carousel-image1 {
+  background: url("https://www.fwd.com.ph/~/media/Images/FWDPH/live/11182018/5-Hacks-on-Planning-a-Low-Cost-Wedding-banner-photo.jpg?h=518&la=en&w=966&hash=B58780C349D16CAF6211333D518324B4CC232F53");
+}
+
+.carousel-image2 {
+  background: url("http://www.blossomsbythebeach.com/wp-content/uploads/2018/02/slideshow_best-of-72-1100x735.jpg");
+}
+
+.carousel-image3 {
+  background: url("https://1mpkoh2uj7ew36r28p3t8kxt11gl-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/shutterstock_1214447791-660x350.jpg");
+}
+
+/* Pricing section */
+
+.pricing-title {
+  margin: 70px 0 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  margin: 20px 0;
+  text-align: center;
+  padding: 0;
+}
+
+.card-holder {
+  padding: 5px;
+}
+
+.card-header {
+  padding: 10px;
+  color: #5f9484;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.best-service {
+  font-size: 1.4rem;
+  background-color: #5f9484;
+  color: #fff;
+}
+
+.card-body {
+  padding: 0.9rem;
+}
+
+.list-group-item {
+  font-size: 0.9rem;
+  border-left: 0;
+  border-right: 0;
+}
+
+.card--btn {
+  margin-top: 20px;
+}
+
+/* Contact & footer section  */
+
+.bg-recolor , footer {
+  background-color: #5f9484;
+  text-align: center;
+  color: #fff;
+}
+
+footer {
+  padding:20px;
+}
+
+footer p {
+  margin-top: 20px 0;
+  padding: 0;
+}
+
+.footer-icon {
+  margin: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+}
