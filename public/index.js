@@ -1,8 +1,9 @@
-window.onbeforeunload = function(){
+$(window).onbeforeunload = function(){
   window.scrollTo(0,0);
 };
 
 
+// css animation on scroll
 $(window).scroll(function(){
   var positionTop = $(window).scrollTop();
   console.log(positionTop);
@@ -32,5 +33,4 @@ $(window).scroll(function(){
     $(".navbar").css("height","120px");
     $(".logo-img").attr("src", "public/images/navicraft-logo.svg");
   }
-
 });
